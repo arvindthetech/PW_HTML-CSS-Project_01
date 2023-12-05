@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>fOOd-X</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@500&family=Exo+2&family=Noto+Sans+Mono:wght@300&family=Poppins:wght@300&family=Source+Code+Pro&display=swap" rel="stylesheet">
+
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Poppins', sans-serif;
+        }
+        body{
+            width: 100%;
+            height: 100%;
+            background-image: url(./assets/pexels-maxyne-barcel-10402282\ 1.png);
+            background-size: cover;
+            background-attachment: fixed;
+        } 
+        header{
+            padding: 20px;
+            display: flex;
+            justify-content:space-between;
+            align-items: center
+            ;
+        }
+        .mid_nav{
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            color: yellow;
+        }
+        .btn_01{
+            width: 90px;
+            height: 30px;
+            color: white;
+            background-color: rgb(244, 66, 66);
+            border: none;
+            border-radius: 2px;
+            font-size:medium;
+            font-weight: 600;
+        }
+
+        .main_section{
+            width: auto;
+            height: auto;
+            padding: 30px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 20px;
+        }
+        .main_section_01{
+            padding: 10px;
+            font-size: 41px;
+            text-align: center;
+            color: yellow;
+        }
+        .btn_02{
+            width: 210px;
+            height: 45px;
+            color: white;
+            background-color: rgb(244, 66, 66);
+            border: none;
+            border-radius: 3px;
+            font-weight: 700;
+            font-size: larger;
+        }
+
+        .scroll{
+            padding: 20px;
+            position: fixed;
+            right: 0px;
+            bottom: 5px;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="./assets/white-logo.png" alt="">
+        </div>
+        <div>
+            <ul class="mid_nav">
+                <li>Our Menu</li>
+                <li>Map to Us</li>
+                <li>About</li>
+                <li>Contact us</li>
+            </ul>
+        </div>
+        <div>
+            <button class="btn_01">Order</button>
+        </div>
+    </header>
+    <div class="main_section">
+        <div class="main_section_01">
+            <h1>A Restaurant That <br> Only Serves <br> Delicious Food</h1>
+        </div>
+        <div class="main_section_02">
+            <button class="btn_02">Read Our Menu</button>
+        </div>
+    </div>
+    <div class="scroll">
+        <img src="./assets/scrool.png" alt="">
+    </div>
+</body>
+</html>
